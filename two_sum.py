@@ -12,22 +12,6 @@ import time
 
 class Solution(object):
 
-    def twoSum_O_n(self, nums, target):
-        """
-        :param nums: list[int]
-        :param target: int
-        :return: list[int]
-        """
-        if len(nums) <= 1:
-            return False
-        buff_dict = {}
-        for i in range(len(nums)):
-            if nums[i] in buff_dict:
-                return [buff_dict[nums[i]], i]
-            else:
-                buff_dict[target-nums[i]] = i
-        return "No two sum solution!"
-
     def twoSum_O_n2(self, nums, target):
         """
         Brute force approach. Loop through each element x and
@@ -63,6 +47,25 @@ class Solution(object):
                 return [i, map_dict[complement]]
         return "No two sum solution!"
 
+    def twoSum_O_n_one_pass_hash(self, nums, target):
+        """
+        It turns out we can do it in one-pass. While we iterate and
+        inserting elements into the table, we also look back to check
+        if current element's complement already exists in the table.
+        If it exists, we have found a solution and return immediately.
+
+        :param nums: list[int]
+        :param target: int
+        :return: list[int]
+        """
+        map_dict = {}
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in map_dict:
+                return [map_dict[complement], i]
+            else:
+                map_dict[nums[i]] = i
+        return "No two sum solution!"
 
 
 if __name__ == '__main__':
@@ -72,10 +75,6 @@ if __name__ == '__main__':
     nums = [2, 7, 11, 15]
     target = 9
 
-    result_O_n = twosum.twoSum_O_n(nums, target)
-    print("Result for the algorithm with O(n) "
-          "complexity: {}".format(result_O_n))
-
     result_O_n2 = twosum.twoSum_O_n2(nums, target)
     print("Result for the algorithm with O(n2) "
           "complexity: {}".format(result_O_n2))
@@ -83,3 +82,7 @@ if __name__ == '__main__':
     result_O_n_hash = twosum.twoSum_O_n_hash(nums, target)
     print("Result for the algorithm with O(n) "
           "complexity (hash table): {}".format(result_O_n_hash))
+
+    result_O_n_one_pass_hash = twosum.twoSum_O_n_one_pass_hash(nums, target)
+    print("Result for the algorithm with O(n) "
+          "(one-pass hash table) complexity: {}".format(result_O_n_one_pass_hash))
