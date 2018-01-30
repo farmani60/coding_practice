@@ -43,6 +43,27 @@ class Solution(object):
                     return [i, j]
         return "No two sum solution!"
 
+    def twoSum_O_n_hash(self, nums, target):
+        """
+        A simple implementation uses two iterations. In the first
+        iteration, we add each element's value and its index to
+        the table. Then, in the second iteration we check if each
+        element's complement (target - nums[i]) exists in the table.
+
+        :param nums: list[int]
+        :param target: int
+        :return: list[int]
+        """
+        map_dict = {}
+        for i in range(len(nums)):
+            map_dict[nums[i]] = i
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if (complement in map_dict) and (map_dict[complement] != i):
+                return [i, map_dict[complement]]
+        return "No two sum solution!"
+
+
 
 if __name__ == '__main__':
 
@@ -58,3 +79,7 @@ if __name__ == '__main__':
     result_O_n2 = twosum.twoSum_O_n2(nums, target)
     print("Result for the algorithm with O(n2) "
           "complexity: {}".format(result_O_n2))
+
+    result_O_n_hash = twosum.twoSum_O_n_hash(nums, target)
+    print("Result for the algorithm with O(n) "
+          "complexity (hash table): {}".format(result_O_n_hash))
