@@ -69,15 +69,15 @@ class Solution(object):
         return root.next
 
 def main():
-    buffer = []
-    ind = 0
-    while ind < 2:
-        userinput = sys.stdin.readline().rstrip('\n')
-        buffer.append(userinput)
-        ind += 1
-    ret = Solution().addTwoNumber(l1=buffer[0], l2=buffer[1])
-    out = ListNodeToString(rest)
-    print(out)
+    while True:
+        try:
+            l1 = sys.stdin.readline().rstrip('\n')
+            l2 = sys.stdin.readline().rstrip('\n')
+            ret = Solution().addTwoNumber(l1, l2)
+            out = ListNodeToString(ret)
+            print(out)
+        except StopIteration:
+            break
 
 if __name__ == '__main__':
     main()
