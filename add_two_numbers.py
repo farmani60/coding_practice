@@ -48,6 +48,7 @@ class Solution(object):
         Args:
             l1: type, ListNode
             l2: type, ListNode
+        Return:
             root: type, ListNode
         """
         l1 = StringToListNode(l1)
