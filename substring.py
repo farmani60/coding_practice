@@ -22,7 +22,7 @@ def allUnique(s, start, end):
         set += ch
     return True
 
-class Solution(object):
+class BruteForce(object):
     def lengthOfLongestSubstring(self, s):
         n = len(s)
         ans = 0
@@ -37,7 +37,7 @@ class Solution(object):
 
 if __name__ == '__main__':
     s = 'abcabcefgh'
-    ans = Solution().lengthOfLongestSubstring(s)
+    ans = BruteForce().lengthOfLongestSubstring(s)
     print(ans)
 
 
