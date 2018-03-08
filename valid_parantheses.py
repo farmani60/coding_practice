@@ -3,18 +3,15 @@ class Solution(object):
         status = ''
         i = 0
         par_dict = {'(': ')', '{': '}', '[': ']'}
-
         while i < len(s):
             if s[i] in par_dict.keys():
                 if s[i+1] == par_dict[s[i]]:
                     status = 'valid'
                     i += 2
                 else:
-                    status = 'not valid'
-                    return status
+                    return 'not valid'
             else:
-                status = 'not valid'
-                return status
+                return 'not valid'
         return status
 
 status = Solution().isValid('{}{}()[]')
