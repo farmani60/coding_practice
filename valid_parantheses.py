@@ -6,23 +6,11 @@ class Solution(object):
         """
         status = ''
         i = 0
+        par_dict = {'(': ')', '{': '}', '[': ']'}
+
         while i < len(s):
-            if s[i] == '(':
-                if s[i+1] == ')':
-                    status = 'valid'
-                    i += 2
-                else:
-                    status = 'not valid'
-                    return status
-            elif s[i] == '[':
-                if s[i+1] == ']':
-                    status = 'valid'
-                    i += 2
-                else:
-                    status = 'not valid'
-                    return status
-            elif s[i] == '{':
-                if s[i+1] == '}':
+            if s[i] in par_dict.keys():
+                if s[i+1] == par_dict[s[i]]:
                     status = 'valid'
                     i += 2
                 else:
@@ -33,6 +21,6 @@ class Solution(object):
                 return status
         return status
 
-
 status = Solution().isValid('{}{}()[]')
 print(status)
+
