@@ -1,6 +1,7 @@
 from __future__ import print_function
 
 class BubbleSort(object):
+    """complexity: O(n2)"""
     def sortMachine(self, collections):
         for i in range(len(collections)):
             for j in range(len(collections)-1):
