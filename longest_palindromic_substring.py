@@ -11,7 +11,7 @@ class Solution(object):
     there are a total of n(n-1)/2 such substrings (excluding the trivial solution 
     where a character itself is a palindrome). Since verifying each substring takes 
     O(n) time, the run time complexity is O(n^3).
-    Space complexity : O(1)O(1)."""
+    Space complexity : O(1)."""
     
     def longestPalindrome(self, s):
         longest_pal = ""
