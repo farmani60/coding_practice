@@ -12,7 +12,7 @@ class Solution(object):
 
         longest_pal = ""
 
-        if len(s) <= 5:
+        if len(s) <= 1000:
             for i in range(len(s)):
                 for j in range(len(s), i, -1):
                     s1 = s[i:j]
