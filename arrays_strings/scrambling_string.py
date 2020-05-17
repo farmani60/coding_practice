@@ -54,10 +54,29 @@ Output: false
 
 """
 
-class Solution():
-    def isScramble(selfself, s1, s2):
+class Solution:
+    def __init__(self):
+        pass
+
+    def isScramble(self, s1, s2):
         """
         :param s1: str
         :param s2: str
         :return: bool
         """
+        if sorted(s1) != sorted(s2) or len(s1) != len(s2):
+            return False
+        if len(s1) < 4:
+            return True
+        for i in range(1, len(s1)):
+            if self.isScramble(s1[:i], s2[:i]) and self.isScramble(s1[i:], s2[i:]):
+                return True
+            if self.isScramble(s1[:i], s2[-i:]) and self.isScramble(s1[i:], s2[:-i]):
+                return True
+
+
+
+
+
+
+
