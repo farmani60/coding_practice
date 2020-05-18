@@ -52,6 +52,52 @@ Example 2:
 Input: s1 = "abcde", s2 = "caebd"
 Output: false
 
+In order to check if the string is scramble or not we need to keep on matching the string untils all our options are exhauseted.
+
+As the question says, that a word would be scrambled if we choose any non-leaf node and swap its childer.
+
+Lets analyze one example,
+
+great < orginal >
+greta < scramble >
+
+	greta
+    /    \
+   gr    eta
+   /\      /\
+  g  r    e  ta
+             /\
+           #t  a # --> This has been swapped with the original string,
+Now if we consider the scramble string : "ta" and orginal string : "at"
+
+we can validate that they are scramble if ith( in this case i==1) char of original string is same as the last ith char of the new string, i.e we check if org[i:] == new[:-i].
+
+In addition to that few points to keep in mind if the size of the original string is less than or equal to 3, the scramble would always be valid
+
+s1 : great
+s2 : rgtae
+
+i = 1
+isScramble('g', 'r') -> False and isScramble('reat', 'gtae') -> False
+isScramble('g', 'e') -> False and isScramble('reat', 'rgta') -> False
+
+i = 2
+isScramble('gr', 'rg) -> True and isScramble('eat', 'tae') -> True
+
+True
+
+s1: abcde
+s2: caebd
+
+i=1
+isScramble('a', 'c'): False and isScramble('bcde', 'aebd'): False
+isScramble('a', 'd'): False and isScramble('bcde', 'caeb'): False
+i=2:
+isScramble('ab', 'ca'): False and isScramble('cde', 'ebd'): False
+isScramble('ab', 'bd'): False and isScramble('cde', 'cae'): False
+i=3
+isScramble('abc', 'cae'): False and isScramble('de', 'bd'): False
+isScramble('abc', 'ebd'): False and isScramble('de', 'ca'): False
 """
 
 class Solution:
@@ -73,9 +119,13 @@ class Solution:
                 return True
             if self.isScramble(s1[:i], s2[-i:]) and self.isScramble(s1[i:], s2[:-i]):
                 return True
+        return False
 
-
-
+if __name__ == '__main__':
+    s = Solution()
+    s1 = "great"
+    s2 = "rgtae"
+    print(s.isScramble(s1, s2))
 
 
 
