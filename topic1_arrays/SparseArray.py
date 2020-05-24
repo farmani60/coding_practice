@@ -68,6 +68,8 @@ def matchingStrings_(strings, queries):
             result.append(0)
     return result
 
+from collections import defaultdict
+
 if __name__ == '__main__':
     strings = ["aba", "baba", "aba", "xzxb"]
     queries = ["aba", "xzxb", "ab"]

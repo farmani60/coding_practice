@@ -35,6 +35,35 @@ Sample Input:
 
 Sample Output:
 5 1 2 3 4
+
+
+a: [1, 2, 3, 4, 5]
+d: 4
+len(a): 5
+
+rotation: 4
+
+b: []
+
+i: 0
+indexHelper(4, 5): 4
+b.append(a[4]) -> b: [5]
+
+i: 1
+indexHelper(5, 5): 0
+b.append(a[0]) -> b: [5, 1]
+
+i: 2
+indexHelper(6, 5): 1
+b: [5, 1, 2]
+
+i: 3
+indexHelper(7, 5) : 2
+b: [5, 1, 2, 3]
+
+i: 4
+indexHelper(8, 5): 3
+b: [5, 1, 2, 3, 4]
 """
 
 def rotLeft(a, d):
