@@ -43,11 +43,16 @@ def rotLeft(a, d):
     rotation = d % len(a)
     if rotation == 0:
         return a
-    for i in range(d):
-        x = a[1:]
-        x.append(a[0])
-        a = x
-    return a
+    b = []
+    for i in range(len(a)):
+        b.append(a[indexHelper(i+rotation, len(a))])
+    return b
+
+def indexHelper(ind, length):
+    if ind >= length:
+        return ind - length
+    else:
+        return ind
 
 if __name__ == '__main__':
     a = [1, 2, 3, 4, 5]
