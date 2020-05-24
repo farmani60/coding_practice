@@ -106,7 +106,3 @@ if __name__ == '__main__':
     s1 = "great"
     s2 = "rgtae"
     print(s.isScramble(s1, s2))
-
-
-
-
