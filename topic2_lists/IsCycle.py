@@ -5,7 +5,7 @@ class Node:
 
 def has_cycle(head):
     if head is None:
-        return None
+        return False
     node = head
     nodes_list = [node]
     while True:
@@ -16,6 +16,19 @@ def has_cycle(head):
             nodes_list.append(node)
         if node.nextnode is None:
             return False
+
+
+def has_cycle_(head):
+    if head is None:
+        return False
+    slow = head
+    fast = head.nextnode
+    while slow != fast:
+        if (fast is None) or (fast.nextnode == None):
+            return False
+        slow = slow.nextnode
+        fast = fast.nextnode.nextnode
+    return True
 
 def printList(head):
     printdata = head
@@ -38,4 +51,4 @@ e3.nextnode = e2
 e2.nextnode = e3
 e1.nextnode = e2
 
-print(has_cycle(e1))
+print(has_cycle_(e1))
