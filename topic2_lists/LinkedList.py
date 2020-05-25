@@ -50,7 +50,15 @@ class SLinkedList:
                 self.headval = HeadVal.nextval
                 HeadVal = None
                 return
-
+        while HeadVal is not None:
+            if HeadVal.dataval == RemoveKey:
+                break
+            prev = HeadVal
+            HeadVal = HeadVal.nextval
+        if HeadVal is None:
+            return
+        prev.nextval = HeadVal.nextval
+        HeadVal = None
 
 
 list1 = SLinkedList()
