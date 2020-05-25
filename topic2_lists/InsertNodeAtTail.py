@@ -1,37 +1,35 @@
 class Node:
-    def __init__(self, dataval):
-        self.dataval  = dataval
-        self.nextval = None
+    def __init__(self, data):
+        self.data = data
+        self.nextnode = None
 
-class SLinkdList:
-    def __init__(self):
-        self.headval = None
+def insertNodeAtEnd(headnode, data):
+    NewNode = Node(data)
+    if headnode.nextnode is None:
+        headnode.nextnode = NewNode
+        return headnode
+    laste = headnode
+    while laste.nextnode:
+        laste = laste.nextnode
+    laste.nextnode = NewNode
+    return headnode
 
-    def PrintList(self):
-        if self.headval is None:
-            return
-        printval = self.headval
-        while printval is not None:
-            print(printval.dataval)
-            printval = printval.nextval
+def printList(head):
+    printdata = head
+    while True:
+        print(printdata.data)
+        if printdata.nextnode is None:
+            break
+        printdata = printdata.nextnode
 
-    def AtEnd(self, newval):
-        NewNode = Node(newval)
-        if self.headval is None:
-            self.headval = NewNode
-            return
-        laste = self.headval
-        while laste.nextval:
-            laste = laste.nextval
-        laste.nextval = NewNode
+e1 = Node(16)
+e2 = Node(13)
+e3 = Node(7)
+e2.nextnode = e3
+e1.nextnode = e2
 
+printList(e1)
 
-if __name__ == "__main__":
-    list1 = SLinkdList()
-    list1.headval = Node("Mon")
-    e2 = Node("Tue")
-    list1.headval.nextval = e2
-    e3 = Node("Wed")
-    e2.nextval = e3
-    list1.AtEnd("Thur")
-    list1.PrintList()
+insertNodeAtEnd(e1, 1)
+
+printList(e1)
