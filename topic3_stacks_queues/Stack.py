@@ -14,12 +14,19 @@ class Stack:
     def peek(self):
         return self.stack[-1]
 
+    # Use list pop method to remove element
+    def remove(self):
+        if len(self.stack) <= 0:
+            return ("No element in the Stack!")
+        else:
+            return self.stack.pop()
+
 
 AStack = Stack()
 AStack.add("Mon")
 AStack.add("Tue")
-AStack.peek()
-print(AStack.peek())
 AStack.add("Wed")
 AStack.add("Thu")
+print(AStack.remove())
+print(AStack.remove())
 print(AStack.peek())
