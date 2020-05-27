@@ -1,4 +1,6 @@
 def isBalanced(expression):
+    if not expression:
+        print("Input expression is empty!")
     stack = []
     for c in expression:
         if c == "{":
