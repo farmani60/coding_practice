@@ -1,3 +1,9 @@
+"""
+Description:
+https://www.hackerrank.com/challenges/waiter/problem?h_r=internal-search
+"""
+
+
 class Stack:
     def __init__(self):
         self.stack = list()
