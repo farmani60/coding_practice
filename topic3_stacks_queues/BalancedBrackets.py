@@ -1,7 +1,8 @@
 def isBalanced(expression):
+    # Check if the expression is empty
     if not expression:
-        print("Input expression is empty!")
-    stack = []
+        print("No element in the input expression!")
+    stack = list()
     for c in expression:
         if c == "{":
             stack.append("}")
@@ -12,5 +13,5 @@ def isBalanced(expression):
         else:
             if (not stack) or (c != stack[-1]):
                 return False
-            stack.pop()
+        stack.pop()
     return not stack
