@@ -13,5 +13,14 @@ def isBalanced(expression):
         else:
             if (not stack) or (c != stack[-1]):
                 return False
-        stack.pop()
+            stack.pop()
     return not stack
+
+# True
+print(isBalanced("{}[]()"))
+
+# True
+print(isBalanced("{([{}])}"))
+
+# False
+print(isBalanced("{[(]})"))
