@@ -26,3 +26,6 @@ print(dict)
 
 # Delete entire dictionary
 del dict
+
+# To study:
+https://dbader.org/blog/python-dictionaries-maps-and-hashtables
