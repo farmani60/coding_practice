@@ -4,11 +4,11 @@
 def missingNumbers(arr, brr):
     arrMap = createMap(arr)
     brrMap = createMap(brr)
-    lostList = []
+    missList = []
     for k in arrMap.keys():
         if (k not in brrMap.keys()) or (brrMap[k] > arrMap[k]):
-            lostList.append(k)
-    return lostList
+            missList.append(k)
+    return sorted(missList)
 
 
 def createMap(inputArr):
