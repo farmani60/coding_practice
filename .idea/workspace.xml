@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109279c8-28b6-4ff8-b098-c80a65b76cc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/topic4_hashmaps/MissingNumbers2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic4_hashmaps/MissingNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/topic4_hashmaps/MissingNumbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.MissingNumbers2">
+  <component name="RunManager" selected="Python.MissingNumbers">
     <configuration name="ColorfulNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MissingNumbers2" />
         <item itemvalue="Python.MissingNumbers" />
+        <item itemvalue="Python.MissingNumbers2" />
         <item itemvalue="Python.MigretoryBirds" />
         <item itemvalue="Python.ColorfulNumber" />
         <item itemvalue="Python.IceCreamParlor" />
@@ -173,22 +172,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590869455238">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590869852576">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869455238" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1590869455238">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869852576" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1590869852576">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869455238" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1590869455238">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869852576" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1590869852576">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869455238" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1590869455238">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869852576" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1590869852576">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869455238" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590869852576" />
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1590835264917">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
