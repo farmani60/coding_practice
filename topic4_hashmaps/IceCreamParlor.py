@@ -37,13 +37,6 @@ class LinkedList:
                 break
             printdata = printdata.nextnode
 
-
-def addNode(head, newdata):
-    NewNode = Node(newdata)
-    lastn = head
-    while lastn.nextnode is None:
-        lastn.nextnode = NewNode
-
 # Complexity: O(n^2)
 def icecreamParlorBasicSolution(m, arr):
     """
@@ -82,7 +75,7 @@ def icecreamParlor(m, arr):
         if (m - arr[i]) in costToIndex.keys():
             iceCreamOne = i
             iceCreamTwo = costToIndex[m-arr[i]].headnode.dataval
-            # In case where we need two different IceCreams of the same ptice.
+            # In case where we need two different IceCreams of the same price.
             if iceCreamOne == iceCreamTwo:
                 if costToIndex[m-arr[i]].size() > 1:
                     iceCreamTwo = costToIndex[m-arr[i]].headnode.nextdata.dataval
