@@ -13,7 +13,6 @@ def migretoryBirsds(arr):
             typeBird = i
     return typeBird
 
-
 def createMap(arr):
     birdsType = dict()
     for i in range(len(arr)):
