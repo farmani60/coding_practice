@@ -47,13 +47,15 @@ def colorful(number):
     while groupingOf <= len(digits):
         for i in range(len(digits)):
             j = i + groupingOf
+            outOfBound = False
             if j > len(digits):
+                outOfBound = True
                 break
             subDigits = digits[i:j]
             products = 1
             for s in subDigits:
                 products *= s
-            if products in productsList:
+            if (products in productsList) and (not outOfBound):
                 return False
             else:
                 productsList.append(products)
