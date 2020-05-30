@@ -113,4 +113,3 @@ arr = [1, 4, 5, 3, 2]
 m = 5
 print(icecreamParlorBasicSolution(m, arr))
 print(icecreamParlor(m, arr))
-
