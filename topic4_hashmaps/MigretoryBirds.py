@@ -1,34 +1,6 @@
 # Description:
 # https://www.hackerrank.com/challenges/migratory-birds/problem?h_r=internal-search
 
-class Node:
-    def __init__(self, dataval):
-        self.dataval = dataval
-        self.nextnode = None
-
-class LinkedList:
-    def __init__(self):
-        self.headnode = None
-
-    def add(self, newdata):
-        NewNode = Node(newdata)
-        if self.headnode is None:
-            self.headnode = NewNode
-            return
-        laste = self.headnode
-        while laste.nextnode:
-            laste = laste.nextnode
-
-    def size(self):
-        if self.headnode is None:
-            return 0
-        size = 1
-        laste = self.headnode
-        while laste.nextnode:
-            size += 1
-            laste = laste.nextnode
-        return size
-
 def migretoryBirsds(arr):
     birdsType = createMap(arr)
     typeBird = None
