@@ -18,43 +18,6 @@ That is, 3 2 4 5 (3*2)=6 (2*4)=8 (4*5)=20, (3*2*4)= 24 (2*4*5)= 40
 Given Number : 326
 Output : Not Colorful.
 326 is not a colorful number as it generates 3 2 6 (3*2)=6 (2*6)=12.
-
-digits: [3, 2, 4, 5]
-productsList: []
-groupOf = 1
-len(digits): 4
-
-i = 0
-j = 1
-subDigits: [3]
-products: 3
-productsList: [3]
-
-i: 1
-j: 2
-subDigist: [2]
-products: 2
-productsList: [2, 3]
-
-i: 2
-j: 3
-subDigist: [4]
-products: 4
-productsList: [2, 3, 4]
-
-i: 3
-j: 4
-subDigist: [5]
-products: 5
-productsList: [2, 3, 4, 5]
-
-groupOf: 2
-
-i: 0
-j: 2
-subDigist: [2, 3]
-products: 6
-productsList: [2, 3, 4, 5, 6]
 """
 
 
