@@ -30,7 +30,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.InsertionSort">
+  <component name="RunManager" selected="Python.ShellSort">
     <configuration name="BubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MissingNumbers2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ShellSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic4_hashmaps" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic5_sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic4_hashmaps/MissingNumbers2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/ShellSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ShellSort" />
         <item itemvalue="Python.InsertionSort" />
         <item itemvalue="Python.MergeSort" />
         <item itemvalue="Python.BubbleSort" />
         <item itemvalue="Python.MissingNumbers" />
-        <item itemvalue="Python.MissingNumbers2" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +172,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590922571928">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590925707001">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590922571928" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1590922571928">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1590925707001">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590922571928" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1590922571928">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1590925707001">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590922571928" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1590922571928">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1590925707001">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590922571928" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1590835264917">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
