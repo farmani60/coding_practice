@@ -1,7 +1,7 @@
 # Description:
 # https://www.hackerrank.com/challenges/insertionsort2/problem?h_r=internal-search
 
-def insertionSort(input_list):
+def insertionSort2(input_list):
     for i in range(1, len(input_list)):
         j = i - 1
         next_element = input_list[i]
@@ -11,5 +11,5 @@ def insertionSort(input_list):
         input_list[j+1] = next_element
 
 input_list = [1, 4, 3, 5, 6, 2]
-insertionSort(input_list)
+insertionSort2(input_list)
 print(input_list)
