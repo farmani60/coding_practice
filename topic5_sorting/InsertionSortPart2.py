@@ -1,7 +1,11 @@
 # Description:
 # https://www.hackerrank.com/challenges/insertionsort2/problem?h_r=internal-search
-
+# O(n^2)
 def insertionSort2(input_list):
+    """
+    :param input_list:
+    :return:
+    """
     for i in range(1, len(input_list)):
         j = i - 1
         next_element = input_list[i]
