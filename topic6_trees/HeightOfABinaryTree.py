@@ -3,7 +3,7 @@ Description:
 https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
 
 The height of a binary tree is the number of edges between the tree's root and
-its furthest leaf. For example, the following binary tree is of height 2:
+its furthest leaf. For example, the following binary tree is of height 3:
 
        4
      /   \
@@ -34,14 +34,18 @@ class Tree:
         else:
             self.data = data
 
+def getHeight(root):
+    if root:
+        return 1 + max(getHeight(root.left), getHeight(root.right))
+    else:
+        return -1
 
-def getHeight(tree):
-    pass
+root = Tree(3)
+root.Insert(2)
+root.Insert(5)
+root.Insert(1)
+root.Insert(4)
+root.Insert(6)
+root.Insert(7)
 
-tree = Tree(3)
-tree.Insert(2)
-tree.Insert(5)
-tree.Insert(1)
-tree.Insert(4)
-tree.Insert(6)
-tree.Insert(7)
+print(getHeight(root))
