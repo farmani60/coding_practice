@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="109279c8-28b6-4ff8-b098-c80a65b76cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic5_sorting/QuickSortPart2.py" beforeDir="false" afterPath="$PROJECT_DIR$/topic5_sorting/QuickSortPart2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic5_sorting/CorrectnessAndTheLoopInvariant.py" beforeDir="false" afterPath="$PROJECT_DIR$/topic5_sorting/CorrectnessAndTheLoopInvariant.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +31,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.QuickSortPart1">
-    <configuration name="InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BinaryTreeInsertion">
+    <configuration name="BinaryTreeInsertion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -40,32 +40,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic5_sorting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic6_trees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/InsertionSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="InsertionSortPart1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="coding_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic5_sorting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/InsertionSortPart1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic6_trees/BinaryTreeInsertion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SelectionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortPart2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +107,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/SelectionSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/QuickSortPart2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic6_trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic6_trees/Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BinaryTreeInsertion" />
+        <item itemvalue="Python.Tree" />
+        <item itemvalue="Python.QuickSortPart2" />
         <item itemvalue="Python.QuickSortPart1" />
         <item itemvalue="Python.InsertionSortPart2" />
-        <item itemvalue="Python.InsertionSortPart1" />
-        <item itemvalue="Python.InsertionSort" />
-        <item itemvalue="Python.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -173,22 +173,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590955599732">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1591041477766">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590955599732" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1590955599732">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1591041477766">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590955599732" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1590955599732">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1591041477766">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590955599732" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1590955599732">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1591041477766">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590955599732" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1590835264917">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
