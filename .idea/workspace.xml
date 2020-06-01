@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="109279c8-28b6-4ff8-b098-c80a65b76cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic5_sorting/CorrectnessAndTheLoopInvariant.py" beforeDir="false" afterPath="$PROJECT_DIR$/topic5_sorting/CorrectnessAndTheLoopInvariant.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,22 +172,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1591041477766">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1591041529653">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1591041477766">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1591041529653">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1591041477766">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1591041529653">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1591041477766">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1591041529653">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041477766" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1590835264917">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
