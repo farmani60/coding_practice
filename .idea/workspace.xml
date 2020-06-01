@@ -35,12 +35,38 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.InsertNodeAtTail">
     <configuration name="Hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
 =======
   <component name="RunManager" selected="Python.ShellSort">
     <configuration name="BubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
 >>>>>>> 50520e55d81a64306e191953a0b02a444019f707
+=======
+  <component name="RunManager" selected="Python.BinaryTreeInsertion">
+    <configuration name="BinaryTreeInsertion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
+      <module name="coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic6_trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic6_trees/BinaryTreeInsertion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="InsertionSortPart2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/BubbleSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/InsertionSortPart2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortPart1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/InsertionSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/QuickSortPart1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,27 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="coding_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic5_sorting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/MergeSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <configuration name="InsertNodeAtTail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
@@ -129,27 +135,9 @@
 =======
     <configuration name="MissingNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
 >>>>>>> 50520e55d81a64306e191953a0b02a444019f707
-      <module name="coding_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic4_hashmaps" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic4_hashmaps/MissingNumbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ShellSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="QuickSortPart2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +149,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/ShellSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic5_sorting/QuickSortPart2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic6_trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic6_trees/Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,6 +182,7 @@
     <recent_temporary>
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <item itemvalue="Python.InsertNodeAtTail" />
         <item itemvalue="Python.Hash" />
         <item itemvalue="Python.Maps" />
@@ -183,6 +193,13 @@
         <item itemvalue="Python.BubbleSort" />
         <item itemvalue="Python.MissingNumbers" />
 >>>>>>> 50520e55d81a64306e191953a0b02a444019f707
+=======
+        <item itemvalue="Python.BinaryTreeInsertion" />
+        <item itemvalue="Python.Tree" />
+        <item itemvalue="Python.QuickSortPart2" />
+        <item itemvalue="Python.QuickSortPart1" />
+        <item itemvalue="Python.InsertionSortPart2" />
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +230,7 @@
   </component>
   <component name="WindowStateProjectService">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1590789985914">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
@@ -235,29 +253,43 @@
     <state width="1259" height="212" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1590789985913" />
 =======
     <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590925707001">
+=======
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1591041529653">
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
-    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1590925707001">
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
+    <state width="1897" height="284" key="GridCell.Tab.0.center" timestamp="1591041529653">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
-    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1590925707001">
+    <state width="1897" height="284" key="GridCell.Tab.0.center/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
+    <state width="1897" height="284" key="GridCell.Tab.0.left" timestamp="1591041529653">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
-    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1590925707001">
+    <state width="1897" height="284" key="GridCell.Tab.0.left/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right" timestamp="1591041529653">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590925707001" />
+    <state width="1897" height="284" key="GridCell.Tab.0.right/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1590835264917">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590835264917" />
+    <state x="2494" y="149" width="762" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590952529926">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2494" y="149" width="762" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590952529926" />
     <state x="826" y="27" width="711" height="724" maximized="true" key="dock-window-1" timestamp="1590837855968">
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
     <state x="826" y="27" width="711" height="724" maximized="true" key="dock-window-1/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590837855968" />
+<<<<<<< HEAD
 >>>>>>> 50520e55d81a64306e191953a0b02a444019f707
+=======
+    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1590951908846">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590951908846" />
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
   </component>
 </project>
