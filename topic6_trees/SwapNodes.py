@@ -35,6 +35,13 @@ Eg. In the following tree, we swap children of node 1.
     4   5           5   4        [3]
 
 Inorder traversal of left tree is 2 4 1 3 5 and of right tree is 3 5 1 2 4.
+
+Swap operation: Given a tree and a integer, K, we have to swap the subtrees of
+all the nodes who are at depth h, where h ∈ [K, 2K, 3K,...].
+
+You are given a tree of N nodes where nodes are indexed from [1..N] and it is
+rooted at 1. You have to perform T swap operations on it, and after each swap
+operation print the inorder traversal of the current state of the tree.
 """
 
 class Node:
@@ -90,22 +97,26 @@ class Tree:
                     temp = node.left
                     node.left = node.right
                     node.right = temp
-        self.printInOrder(self.mNodes[0])
+        self.printInOrder(self.mNodes[0][1])
 
     def printInOrder(self, node):
         if (node is None) or (node.value == -1):
             return
         if (node.left != -1):
-            self.printInOrder(self.mNodes[node.left-1])
-        print(" ")
+            self.printInOrder(self.mNodes[node.left-1][1])
+        print("{} ".format(node.value))
         if node.right != -1:
-            self.printInOrder(self.mNodes[node.right-1])
+            self.printInOrder(self.mNodes[node.right-1][1])
 
 
 
 
 # T = [(2, 3), (-1, -1), (-1, -1)]
-T = [(2, 3), (-1, 4), (-1, 5), (-1, -1), (-1, -1)]
+# T = [(2, 3), (-1, 4), (-1, 5), (-1, -1), (-1, -1)]
+T = [(2, 3), (4, -1), (5, -1), (6, -1), (7, 8), (-1, 9),
+     (-1, -1), (10, 11), (-1, -1), (-1, -1), (-1, -1)]
 
 tree = Tree(T)
-tree.builTree(5)
+tree.builTree(11)
+tree.performSwap(2)
+tree.performSwap(4)
