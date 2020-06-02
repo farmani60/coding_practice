@@ -29,6 +29,8 @@ class Tree:
         if self.right:
             self.right.PrintTree()
 
+H = [21, 1, 45, 78, 3, 5]
+
 tree = Tree(4)
 tree.Insert(2)
 tree.Insert(1)
