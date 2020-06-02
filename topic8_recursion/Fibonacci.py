@@ -2,6 +2,7 @@
 1, 1, 2, 3, 5, 8, 13, 21
 """
 
+# Simple solution
 def Fibonacci(n):
     if n == 0:
         return 0
