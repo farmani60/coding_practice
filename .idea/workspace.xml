@@ -4,6 +4,10 @@
     <list default="true" id="109279c8-28b6-4ff8-b098-c80a65b76cc9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/topic6_trees/HeightOfABinaryTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/topic4_hashmaps/IceCreamParlor.py" beforeDir="false" afterPath="$PROJECT_DIR$/topic4_hashmaps/IceCreamParlor.py" afterDir="false" />
+=======
+>>>>>>> 50520e55d81a64306e191953a0b02a444019f707
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +35,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.InsertNodeAtTail">
+    <configuration name="Hash" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.ShellSort">
+    <configuration name="BubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 50520e55d81a64306e191953a0b02a444019f707
+=======
   <component name="RunManager" selected="Python.BinaryTreeInsertion">
     <configuration name="BinaryTreeInsertion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +109,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <configuration name="InsertNodeAtTail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/topic2_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/topic2_lists/InsertNodeAtTail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Maps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="MissingNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 50520e55d81a64306e191953a0b02a444019f707
+=======
     <configuration name="QuickSortPart2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +182,25 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <item itemvalue="Python.InsertNodeAtTail" />
+        <item itemvalue="Python.Hash" />
+        <item itemvalue="Python.Maps" />
+=======
+        <item itemvalue="Python.ShellSort" />
+        <item itemvalue="Python.InsertionSort" />
+        <item itemvalue="Python.MergeSort" />
+        <item itemvalue="Python.BubbleSort" />
+        <item itemvalue="Python.MissingNumbers" />
+>>>>>>> 50520e55d81a64306e191953a0b02a444019f707
+=======
         <item itemvalue="Python.BinaryTreeInsertion" />
         <item itemvalue="Python.Tree" />
         <item itemvalue="Python.QuickSortPart2" />
         <item itemvalue="Python.QuickSortPart1" />
         <item itemvalue="Python.InsertionSortPart2" />
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +230,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1590789985914">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1590788986110" />
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1590789985914" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1590789985913">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1590788986109" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1590789985913" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1590789985912">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1590788986108" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1590789985912" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1590789985913">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1590788986110" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1590789985913" />
+=======
+    <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1590925707001">
+=======
     <state width="1897" height="284" key="GridCell.Tab.0.bottom" timestamp="1591041529653">
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1897" height="284" key="GridCell.Tab.0.bottom/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591041529653" />
@@ -201,9 +284,13 @@
       <screen x="64" y="27" width="1856" height="1053" />
     </state>
     <state x="826" y="27" width="711" height="724" maximized="true" key="dock-window-1/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590837855968" />
+<<<<<<< HEAD
+>>>>>>> 50520e55d81a64306e191953a0b02a444019f707
+=======
     <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1590951908846">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup/64.27.1856.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590951908846" />
+>>>>>>> cb49647d9bda2d005bf68a11c1b5c981474bd4d0
   </component>
 </project>
