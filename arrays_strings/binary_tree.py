@@ -58,38 +58,6 @@ class Tree:
             print(str(node.val) + ' ')
             self._printTree((node.right))
 
-class Node:
-    def __init__(self, string, level):
-        self.string = string
-        self.level = level
-        self.left = None
-        self.right = None
-
-class Tree:
-    def __init__(self):
-        self.root = None
-        self.tree = dict()
-
-    def add_string(self, string, level=0):
-        if self.root == None:
-            self.root = Node(string, level)
-            self.tree[level] = (string)
-        else:
-            add_string
-
-    def add_string(self, string):
-        if self.root == None:
-            self.root = Node(string, 0)
-            self.tree[0] = (string)
-        else:
-            self._add_string(string, self.root)
-
-    def _add_string(self, string, node):
-        if len(string) > 1:
-            for i in range(1, len(string)):
-                node.left = string[:i]
-                node.right = string[i:]
-            if len(self.root.left) > 1:
 
 if __name__ == '__main__':
     tree = Tree()
