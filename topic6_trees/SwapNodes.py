@@ -99,7 +99,7 @@ class Tree:
             self.printInOrder(self.mNodes[node.left-1])
         print(" ")
         if node.right != -1:
-            self.printInOrder(self.mNodes(node.right - 1))
+            self.printInOrder(self.mNodes[node.right-1])
 
 
 
