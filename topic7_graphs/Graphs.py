@@ -19,7 +19,7 @@ the vertices also called edges as the values in the dictionary.
    a ----- b
    |       |
    |       |
-   c------d------e
+   c ----- d ----- e
 
 In the above graph:
 V = {a, b, c, d, e}
