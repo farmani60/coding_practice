@@ -52,6 +52,8 @@ class graph:
     def addVertex(self, vertex):
         if vertex not in self.gdict.keys():
             self.gdict[vertex] = []
+        else:
+            print("Vertex {} already exists in the graph.".format(vertex))
 
     # Add new edge
     def addEdge(self, edge):
