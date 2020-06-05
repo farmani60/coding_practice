@@ -46,6 +46,7 @@ Return an integer array of the results of all queries in order.
 from collections import defaultdict
 
 def matchingStrings(strings, queries):
+    # time complexity O(n*m)
     results = []
     for q in queries:
         k = 0
@@ -67,8 +68,6 @@ def matchingStrings_(strings, queries):
         except:
             result.append(0)
     return result
-
-from collections import defaultdict
 
 if __name__ == '__main__':
     strings = ["aba", "baba", "aba", "xzxb"]

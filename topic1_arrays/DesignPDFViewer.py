@@ -43,4 +43,5 @@ Sample Output 0:
 
 def designerPdfViewer(h, word):
     # ord: return an integer that is the unicode character
+    # Complexity: O(n)
     return len(word) * max([h[ord(l)-ord('a')] for l in word])
