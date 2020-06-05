@@ -8,7 +8,7 @@ class Node:
         self.value = None
         self.left = None
         self.right = None
-        self.depth = None
+        self.depth = 0
 
 class Tree:
 
@@ -40,7 +40,7 @@ class Tree:
             self.maxDepth = left.depth
         self.mNodes.append((leftPos-1, left))
 
-    def addrightNode(self, node, rightPos):
+    def addRightNode(self, node, rightPos):
         right = Node()
         right.depth = node.depth + 1
         if right.depth > self.maxDepth:
@@ -51,3 +51,4 @@ class Tree:
 T = [(2, 3), (-1, -1), (-1, -1)]
 
 tree = Tree(T)
+tree.builTree(6)
