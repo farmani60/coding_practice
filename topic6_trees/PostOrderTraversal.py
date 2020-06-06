@@ -47,8 +47,10 @@ tree = Tree(1)
 values = [2, 5, 3, 4, 6]
 for v in values: tree.insert(v)
 
-print("In order")
+print("\n In order")
 inOrder(tree)
 print("\n Pre order")
 preOrder(tree)
+print("\n Post order")
+postOrder(tree)
 
