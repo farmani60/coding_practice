@@ -42,6 +42,13 @@ all the nodes who are at depth h, where h ∈ [K, 2K, 3K,...].
 You are given a tree of N nodes where nodes are indexed from [1..N] and it is
 rooted at 1. You have to perform T swap operations on it, and after each swap
 operation print the inorder traversal of the current state of the tree.
+
+Input Format:
+Here each of ith element of list T (1 <= i <= N) contains two integers, a b,
+where a is the index of left child, and b is the index of right child of ith node.
+-1 is used to represent null node.
+
+Each of these line contains an integer K.
 """
 
 class Node:
@@ -49,7 +56,7 @@ class Node:
         self.value = None
         self.left = None
         self.right = None
-        self.depth = None
+        self.depth = 0
 
 
 class Tree:
@@ -111,14 +118,13 @@ class Tree:
             self.printInOrder(self.mNodes[node.right-1][1])
 
 
-
-
 # T = [(2, 3), (-1, -1), (-1, -1)]
 # T = [(2, 3), (-1, 4), (-1, 5), (-1, -1), (-1, -1)]
 T = [(2, 3), (4, -1), (5, -1), (6, -1), (7, 8), (-1, 9),
      (-1, -1), (10, 11), (-1, -1), (-1, -1), (-1, -1)]
 
 tree = Tree(T)
+tree.builTree(6)
 tree.builTree(11)
 tree.performSwap(2)
 tree.performSwap(4)
