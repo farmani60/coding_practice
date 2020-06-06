@@ -53,4 +53,3 @@ print("\n Pre order")
 preOrder(tree)
 print("\n Post order")
 postOrder(tree)
-
