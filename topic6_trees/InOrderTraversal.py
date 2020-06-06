@@ -38,7 +38,7 @@ def inOrderTraversal(root):
         inOrderTraversal(root.right)
 
 tree = Tree(5)
-values = [2,6,4,1,3]
+values = [2, 6, 4, 1, 3]
 for v in values: tree.insert(v)
 # tree.printInOrder()
 
