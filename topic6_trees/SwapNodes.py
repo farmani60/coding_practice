@@ -77,6 +77,7 @@ class Tree:
 
     def addLeftNode(self, node, leftPos):
         left = Node()
+        left.value = leftPos
         left.depth = node.depth + 1
         if left.depth > self.maxDepth:
             self.maxDepth = left.depth
@@ -84,6 +85,7 @@ class Tree:
 
     def addRightNode(self, node, rightPos):
         right = Node()
+        right.value = rightPos
         right.depth = node.depth + 1
         if right.depth > self.maxDepth:
             self.maxDepth = right.depth
