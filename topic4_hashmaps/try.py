@@ -1,29 +1,37 @@
 
-lower = 2
-upper = 1000
+def isPrime(number):
+    if all([number % i != 0 for i in range(2, number)]):
+        return True
+    else:
+        return False
 
-prime_numbers = [i for i in range(lower, upper+1)
-                 if all([i%j != 0 for j in range(2, i)])]
+def getDigits(number):
+    digits = []
+    while number != 0:
+        digits.append(number % 10)
+        number = number // 10
+    return digits[::-1]
 
-class Stack:
-    def __init__(self):
-        self.stack = []
-    def add(self, data):
-        self.stack.append(data)
-    def remove(self):
-        self.stack.pop()
-
-def Waiter(A0, Q):
-    A = [A0]
-    B = [None]
-    for i in range(Q):
-        a = Stack()
-        b = Stack()
-        for x in A[i][::-1]:
-            if x % prime_numbers[i] == 0:
-                b.add(x)
+def colourful(number):
+    digits = getDigits(number)
+    groupingOf = 1
+    productsList = []
+    while groupingOf < len(digits):
+        for i in range(len(digits)):
+            j = i + groupingOf
+            outOfBound = False
+            if j > len(digits):
+                outOfBound = True
+                break
+            subDigits = digits[i:j]
+            products = 1
+            for s in subDigits:
+                products *= s
+            if (products in productsList) and (not outOfBound):
+                return False
             else:
-                a.add(x)
-        A.append(a.stack)
-        B.append(b.stack)
-    del B[0]
+                productsList.append(products)
+        groupingOf += 1
+    return True
+
+print(colourful(3426))
