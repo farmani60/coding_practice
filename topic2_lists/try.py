@@ -1,52 +1,43 @@
-
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
 
-class LinkedList:
-    def __init__(self):
-        self.head = None
+def mergeLists(head1, head2):
+    if (head1 is None) and (head2 is not None):
+        return head2
+    if (head1 is not None) and (head2 is None):
+        return head1
+    if (head1 is None) and (head2 is None):
+        return  None
+    if head1.data <= head2.data:
+        head1.next = mergeLists(head1.next, head2)
+    else:
+        temp = head2
+        head2 = head2.next
+        temp.next = head1
+        head1 = temp
+        head1.next = mergeLists(head1.next, head2)
+    return head1
 
-    def atBeginnign(self, newdata):
-        NewNode = Node(newdata)
-        if self.head is None:
-            self.head = NewNode
-            return
-        NewNode.next = self.head
-        self.head = NewNode
+def printList(head):
+    if head is None:
+        return
+    printval = head
+    while printval:
+        print(printval.data, end=" ")
+        printval = printval.next
 
-    def atEnd(self, newdata):
-        NewNode = Node(newdata)
-        if self.head is None:
-            self.head = NewNode
-            return
-        laste = self.head
-        while laste:
-            laste = laste.next
-        laste.next = NewNode
+e1 = Node(1)
+e2 = Node(2)
+e3 = Node(3)
+e2.next = e3
+e1.next = e2
 
-    def inBetween(self, middle_node, newdata):
-        NewNode = Node(newdata)
-        if middle_node is None:
-            return
-        NewNode.next = middle_node.next
-        middle_node.next = NewNode
+f1 = Node(3)
+f2 = Node(4)
+f1.next = f2
 
-    def removeNode(self, key):
-        if self.head is not None:
-            if self.head.data == key:
-                self.head = self.head.next
-                return
-        head = self.head
-        while head:
-            if head.data == key:
-                break
-            prev = head
-            head = head.next
-        if head is None:
-            return
-        prev.next = head.next
-        head = None
-
+l = mergeLists(e1, f1)
+printList(l)
 
