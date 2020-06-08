@@ -4,7 +4,7 @@ class Queue:
     # Add element to the end of the queue
     def Enqueue(self, data):
         if data not in self.queue:
-            self.queue.append(data)
+            self.queue.insert(0, data)
             return True
         else:
             return False
@@ -13,8 +13,7 @@ class Queue:
         if len(self.queue) == 0:
             print("No element in queue!")
         else:
-            del self.queue[0]
-            return self.queue
+            self.queue.pop()
     # Print element at the front of the queue
     def Print(self):
         if len(self.queue) == 0:

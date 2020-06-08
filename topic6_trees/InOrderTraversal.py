@@ -1,6 +1,6 @@
 """
 Description:
-https://www.hackerrank.com/challenges/tree-preorder-traversal/problem?h_r=internal-search
+https://www.hackerrank.com/challenges/tree-inorder-traversal/problem?h_r=internal-search
 """
 
 class Tree:
@@ -24,25 +24,22 @@ class Tree:
         else:
             self.data = newdata
 
-def inOrder(root):
-    if root:
-        inOrder(root.left)
-        print(root.data, end=" ")
-        inOrder(root.right)
+    def printInOrder(self):
+        if self.left:
+            self.left.printInOrder()
+        print(self.data, end=" ")
+        if self.right:
+            self.right.printInOrder()
 
-def preOrder(root):
+def inOrderTraversal(root):
     if root:
+        inOrderTraversal(root.left)
         print(root.data, end=" ")
-        if root.left:
-            preOrder(root.left)
-        if root.right:
-            preOrder(root.right)
+        inOrderTraversal(root.right)
 
-tree = Tree(1)
-values = [2, 5, 3, 4, 6]
+tree = Tree(5)
+values = [2, 6, 4, 1, 3]
 for v in values: tree.insert(v)
+# tree.printInOrder()
 
-print("In order")
-inOrder(tree)
-print("\n Pre order")
-preOrder(tree)
+inOrderTraversal(tree)
