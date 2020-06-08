@@ -10,8 +10,6 @@ def quickSort(arr):
         if i == pivot:
             pass
 
-
-
 def quickSort1(arr):
     pivot = arr[0]
     equal = []
@@ -29,6 +27,7 @@ def quickSort1(arr):
     if len(right):
         right = quickSort1(right)
     return left + equal + right
+
 
 
 arr = [4, 5, 3, 7, 2]
