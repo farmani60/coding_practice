@@ -33,7 +33,7 @@ the array after performing d left rotations.
 def rotLeft(arr, d):
     if d == 0 or len(arr) == 0:
         return arr
-    if d % len(arr):
+    if d % len(arr) == 0:
         return arr
     for i in range(d):
         c = arr.pop(0)
