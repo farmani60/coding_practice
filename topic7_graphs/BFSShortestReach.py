@@ -10,10 +10,10 @@ def BFS(n, edges, node):
     graph = dict()
     for i in range(n+1):
         graph[i] = []
-
     for edge in edges:
         graph[edge[0]].append(edge[1])
 
+    # breadth first search
     reached = {}
     visited = [node]
     queue = [(node, 0)]
