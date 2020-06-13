@@ -1,15 +1,6 @@
 # Description:
 # https://www.hackerrank.com/challenges/quicksort1/problem?h_r=internal-search
 
-def quickSort(arr):
-    pivot = arr[0]
-    left = []
-    right = []
-    equal = []
-    for i in arr:
-        if i == pivot:
-            pass
-
 def quickSort1(arr):
     pivot = arr[0]
     equal = []
@@ -24,7 +15,7 @@ def quickSort1(arr):
             right.append(i)
     if len(left) > 1:
         left = quickSort1(left)
-    if len(right):
+    if len(right) > 1:
         right = quickSort1(right)
     return left + equal + right
 
