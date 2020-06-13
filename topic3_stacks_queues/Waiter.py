@@ -6,7 +6,9 @@ https://www.hackerrank.com/challenges/waiter/problem?h_r=internal-search
 lower = 2
 upper = 1000
 prime_numbers = [i for i in range(lower, upper+1)
-                 if all([i % j == 0 for j in range(2, i)])]
+                 if all([i % j != 0 for j in range(2, i)])]
+
+print(prime_numbers)
 
 class Stack:
     def __init__(self):
