@@ -76,16 +76,23 @@ def Height(node):
             return right_height + 1
 
 
+# make the tree
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)
 root.left.left = Node(4)
 root.left.right = Node(5)
 
-# inOrder(root)
-# print("\n")
-# preOrder(root)
-# print("\n")
-# postOrder(root)
-
+# breadth first traversal
 printLevelOrder(root)
+print("\n")
+# depth first traversal: in order
+inOrder(root)
+print("\n")
+# depth first traversal: pre order
+preOrder(root)
+print("\n")
+# depth first traversal: post order
+postOrder(root)
+
+

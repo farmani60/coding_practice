@@ -24,3 +24,6 @@ print(isBalanced("{([{}])}"))
 
 # False
 print(isBalanced("{[(]})"))
+
+
+print(isBalanced("[{}]"))
